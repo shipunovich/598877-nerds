@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header_logo">
+          <img src="img/...svg" width="200" height="200" alt="Логотип Нёрдс">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="studio.html">студия</a></li>
+          <li><a href="customers.html">клиенты</a></li>
+          <li><a href="shop.html">магазин</a></li>
+          <li><a href="contacts.html">контакты</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li><a href="cart.html">корзина</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content-inner">
+      <h2 class="main-headline">Магазин готовых шаблонов</h2>
+      <section class="filters">
+        <h3 class="visually-hidden">Фильтры</h3>
+        <ul>
+          <li>стоимость</li>
+          <li>сортировать</li>
+          <li>сетка</li>
+          <li>особенности</li>
+        </ul>
+      </section>
+
+      <section class="templates">
+        <ul>
+          <li class="templates_item"></li>
+          <li class="templates_item"></li>
+          <li class="templates_item"></li>
+          <li class="templates_item"></li>
+          <li class="templates_item"></li>
+          <li class="templates_item"></li>
+        </ul>
+      </section>
+
+    <section class="contacts">
+      <div class="contacts_detail">
+        <p>NЁRDS DESIGN STUDIO</p>
+        <p>191186, Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
+        <p>тел. +7 (812) 275-75-75</p>
+        <a class="contacts_detail_button button" href="write-us.html">напишите нам</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <ul>
+      <li><a class="main-footer_social-button" href="vk.com">Вконтакте</a></li>
+      <li><a class="main-footer_social-button" href="facebook.com">Фейсбук</a></li>
+      <li><a class="main-footer_social-button" href="instagram.com">Инстаграм</a></li>
+    </ul>
+    <div class="main-footer_text">
+      <p>Давайте дружить, это выгодно!</p>
+      <p>Скидка 10% для друзей из социальных сетей</p>
+    </div>
+
+  </footer>
+  </body>
+  </html>
